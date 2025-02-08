@@ -1,0 +1,24 @@
+import java.util.*;
+public class HelloWorld {
+	public static void main(String[] args) {
+		String str=aba;
+        int l=0;
+        int r=str.length()-1;
+        boolean isPalindrome=false;
+            while(l<r){
+                if(str.charAt(l)!=str.charAt(r))
+                  {
+                    isPalindrome=true;
+                  }
+               l++;
+               r--;
+            }
+            if(isPalindrome){
+              System.out.println(Not Palindrome);
+            }
+            else{
+                System.out.println(Palindrome);
+            }
+            
+	}
+}
